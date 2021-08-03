@@ -1,5 +1,6 @@
 import "./App.css";
 import * as tf from "@tensorflow/tfjs";
+import CarsList from "./components/CarsList";
 import { useEffect } from "react";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Tensor Flow Js</p>
+        <CarsList />
       </header>
     </div>
   );
